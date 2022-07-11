@@ -214,12 +214,111 @@ div.techstack_icon>i.fa-js-square {
 
 div.techstack_icon>i.fa-python {
     display: inline-block;
-    background: linear-gradient(-120deg, #ffde57, #4584b6, #646464);
+    background: url('https://api.iconify.design/logos/python.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/python.svg?width=30');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
+
+div.techstack_icon>i.fa-pytorch {
+    content: url('https://api.iconify.design/logos/pytorch-icon.svg?width=30');  
+    background: url('https://api.iconify.design/logos/pytorch-icon.svg?width=30') no-repeat center center / contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-aws {
+    background: url('https://api.iconify.design/logos/aws.svg?width=30') no-repeat center center / contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-tf {
+    background: url('https://api.iconify.design/logos/tensorflow.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/tensorflow.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-docker {
+    background: url('https://api.iconify.design/logos/docker-icon.svg?width=30') no-repeat center center / contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-azure {
+    background: url('https://api.iconify.design/logos/microsoft-azure.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/microsoft-azure.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-sql {
+    background: url('https://api.iconify.design/logos/mysql-icon.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/mysql-icon.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-jupyter {
+    background: url('https://api.iconify.design/logos/jupyter.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/jupyter.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-vscode {
+    background: url('https://api.iconify.design/logos/visual-studio-code.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/visual-studio-code.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-pycharm {
+    background: url('https://api.iconify.design/logos/pycharm.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/pycharm.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-ubuntu {
+    background: url('https://api.iconify.design/logos/ubuntu.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/ubuntu.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+div.techstack_icon>i.fa-terminal {
+    background: url('https://api.iconify.design/logos/terminal.svg?width=30') no-repeat center center / contain;
+    content: url('https://api.iconify.design/logos/terminal.svg?width=30');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
 
 div.techstack_icon>i.fa-react {
     color: #61DBFB;
