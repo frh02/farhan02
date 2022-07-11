@@ -41,14 +41,14 @@ const exp = [
   },
   {
     title: "Graduate Teaching Assistant",
-    cardImage: "assets/images/experience-page/uoft_eng.svg",
+    cardImage: "assets/images/experience-page/UTSC_logo.png",
     place: "University of Toronto, (CSC401/2511H1- Natural Language Computing)",
     time: "(Jan, 2022 - May, 2022)",
     desp: "<li>Designed and formulated assignment content.</li><li>Monitored the tutorials and conducted lab sessions.</li><li>Made exam questions for the course exams.</li>",
   },
   {
     title: "Graduate Teaching Assistant",
-    cardImage: "assets/images/experience-page/uoft_sc.svg",
+    cardImage: "assets/images/experience-page/mie.jpeg",
     place: "University of Toronto, (MIE253H1-Data Modelling)",
     time: "(Jan, 2022 - May, 2020)",
     desp: "<li>Conducted lab sessions for student and supervised them with project ideas.</li><li>Designed course material for the course which comprised of data base management.</li><li>Graded assignments and quiz for the students.</li>",
