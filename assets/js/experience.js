@@ -55,7 +55,7 @@ const exp = [
   },
   {
     title: "Graduate Research Intern",
-    cardImage: "assets/images/experience-page/uoft.png",
+    cardImage: "assets/images/experience-page/uoft_sc.png",
     place: "University of Toronto",
     time: "(Jan, 2022 - Apr, 2020)",
     desp: "<li>Assessed real world problems in Electric Vehicle Security during charging in the CAN(Control Area Network) bus data.</li><li>Generated synthetic data using Generative adversarial network (GAN) and carried out classification task.</li><li> Deployed anomaly detection LSTM (Long short Term Memory) Recurrent Neural network (RNN) for supervised deep learning of time sequence data with over 87% accuracy.</li><li>  Implemented multi-class classi cation and categorized the attacks as DoS, fuzzy, impersonation and no attacks with accuracy of 96% in python using tensorflow backend..</li><li>Developed a pipeline for Human pose estimation and to identify a person out of multiple subjects using sate of art models like DeepSort, Sort and YoloV4.</li>",
