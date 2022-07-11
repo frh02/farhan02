@@ -5,39 +5,53 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "MITACS Intern",
+    title: "Computer Vision Engineer",
+    cardImage: "assets/images/experience-page/nightingale.png",
+    place: "Nightingale AI",
+    time: "(May, 2021 - Present)",
+    desp: "<li>Working as Computer Vision Engineer under the supervision of Dr. Charlene Chu.</li><li>Designed a pose estimation for detecting recovery rate in patients.</li><li>Created a website to host the computer vision model to have inference on images and videos.</li><li>Managed the website traffic load and implemented an API for live camera inference.</li>",
+  },
+  {
+    title: "Computer Vision Intern",
     cardImage: "assets/images/experience-page/jacobb.png",
     place: "JACOBB AI",
-    time: "(Jul, 2021 - Present)",
-    desp: "<li>Advised by Dr.Chi-Guhn Lee, Professor in the MIE Department at UofT.</li><li>Working on anamoly detection and classification of defects in sewer channels.</li><li>Responsibilities include developing a complete pipeline for anomaly detection and packaging the code into an application.</li>",
+    time: "(Apr, 2022 - present)",
+    desp: "<li>Visualised a 3D scene in GTLF format and carried out data transformation.</li> <li>Deployed a pre trained object detection model for 3D mesh.</li> <li> Assisted in the pipeline development while suggesting the best way to carry out mesh completion in a 3D scene.</li><li> Data Manipulation for converting 3D objects into diffeerent formats like .obj, .glp format.</li>",
   },
   {
-    title: "Machine Learning Intern",
-    cardImage: "assets/images/experience-page/camh.png",
-    place: "AID4MH | CAMH",
-    time: "(Mar, 2022 - present)",
-    desp: "<li>Working on multiple projects (WASH, BUMP, DMH) related to machine learning, image / signal processing.</li> <li>Developing pipelines for video/audio processing using various AI and signal processing functions.</li> <li>Leading a project called BUMP which involves video based emotion detection and Natural Language Processing.</li>",
-  },
-  {
-    title: "Artificial Intelligence Intern",
+    title: "Computer Vision Developer",
     cardImage: "assets/images/experience-page/shiphrah.png",
     place: "Shiphrah Biomedical Inc.",
     time: "(Jan, 2022 - Present)",
-    desp: "<li>Working in collaboration with Dalla Lana School of Public Health, University of Toronto and advised by Dr.Elham Dolatabadi.</li><li>Working on a project at the intersection of Artificial Intelligence, Medicine, and Engineering.</li><li>Working on object detection models for custom datasets.</li>",
+    desp: "<li>Working as Computer Vision pipeline developer under the supervision of Dr. Elham Dolatabadi and Dr. Allan Kember.</li><li>Data cleaning and extraction from raw EEG/ECG and SpO2 levels in patients.</li><li>Working in the physiology phase of the sleep study in pregnant women during trimester phase.</li><li>Deployed model for human movement tracking like FlowNet, RAFT and DeepFlow.</li><li>Designed a custom computer vision algorithm for Obstructive Sleep Apnea Prediction using Infrared Cameras.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/iitm.png",
-    place: "Indian Institute of Technology, Madras",
-    time: "(Dec, 2019 - Mar, 2020)",
-    desp: "<li>Worked under Dr. Radhakrishna Ganti in the 5G testbed laboratory, IITM - a real world deployment of 5G test bed.</li><li>Our team worked on the implementation and optimization of Digital Pre-Distortion (DPD) module to achieve low Adjacent Channel Leakage Ratio.</li><li>Developed a Verilog Testbench code for the DPD IP.</li><li>Programmed the ZCU111 FPGA board with the synthesized design.</li>",
+    title: "Computer Vision Intern",
+    cardImage: "assets/images/experience-page/yellowhouse.svg",
+    place: "Yellow House Innovation Hub",
+    time: "(Feb, 2022 - Jul, 2022)",
+    desp: "<li>Designing Machine Learning pipeline for artwork detection in Museums.</li><li>Using models which can deployed on a server and used by client on a low end mobile device.</li><li>Using models which can deployed on a server and used by client on a low end mobile device.</li><li>Designed the user and the admin interface for the web application.</li><li>Building on self supervised and semi supervised learning for object detection which can be customised to delete data and to update a dataset</li>",
   },
   {
-    title: "Summer Research Intern",
-    cardImage: "assets/images/experience-page/iitpkd.png",
-    place: "Indian Institute of Technology, Palakkad",
-    time: "(May, 2019 - Jun, 2020)",
-    desp: "<li>Worked on modelling and estimation of Non-linear Communication Channels using Deep Learning under Dr. Lakshmi Narasimhan Theagarajan.</li><li>Simulated non-linear channels using Volterra, Wiener and Hammerstein Models which replicated the under-water communication channels.</li><li>Added random polynomial equations of higher orders as a non-linearity.</li><li>Built and implemented a deep learning network for the estimation of non-linear polynomial co-efficients.</li>",
+    title: "Deep Learning Engineer",
+    cardImage: "assets/images/experience-page/axibo.svg",
+    place: "Axibo Inc",
+    time: "(Jan, 2022 - Apr, 2020)",
+    desp: "<li>Curated a custom dataset for object detection for wide angle camera images.</li><li>Designed a Computer Vision API to detect objects using openCV and deep learning models for object detection.</li><li> Deployed low latency and scalable machine learning models to be deployed in TPU and mobile phones.</li><li>Worked on integrating the detection pipeline into the company software to facilitate the company hardware.</li><li>Developed a pipeline for Human pose estimation and to identify a person out of multiple subjects using sate of art models like DeepSort, Sort and YoloV4.</li>",
+  },
+  {
+    title: "Graduate Research Intern",
+    cardImage: "assets/images/experience-page/uoft.png",
+    place: "University of Toronto",
+    time: "(Jan, 2022 - Apr, 2020)",
+    desp: "<li>Assessed real world problems in Electric Vehicle Security during charging in the CAN(Control Area Network) bus data.</li><li>Generated synthetic data using Generative adversarial network (GAN) and carried out classification task.</li><li> Deployed anomaly detection LSTM (Long short Term Memory) Recurrent Neural network (RNN) for supervised deep learning of time sequence data with over 87% accuracy.</li><li>  Implemented multi-class classi cation and categorized the attacks as DoS, fuzzy, impersonation and no attacks with accuracy of 96% in python using tensorflow backend..</li><li>Developed a pipeline for Human pose estimation and to identify a person out of multiple subjects using sate of art models like DeepSort, Sort and YoloV4.</li>",
+  },
+  {
+    title: "Deep Learning Intern",
+    cardImage: "assets/images/experience-page/yzu.png",
+    place: "Yuan Ze University",
+    time: "(Jun, 2020 - Jul, 2020)",
+    desp: "<li>Extracted raw EEG/ECG data from over 50 patients from National Taiwan University Hospital.</li><li>Converted the raw time sequence data into spectrogram images using image processing techniques in MATLAB and R to carry out novel Deep Learning Models.</li><li> Successfully generated image classification of patients into different levels of Depth of Anesthesia using libraries like OpenCV.</li><li>Created a VGG16 Convolutional Neural Network for feature detection and medical image analysis with accuracy of 96%.</li>",
   },
 ];
 
@@ -82,22 +96,22 @@ const volunteershipcards = [
       "Responsible for developing object detection models.",
   },
   {
-    title: "NSS Volunteer",
-    cardImage: "assets/images/experience-page/nss.png",
+    title: "Social Volunteer",
+    cardImage: "assets/images/experience-page/nifindia.png",
     description:
-      "Participated in programmes and camps on social awareness of cleanliness and tree plantations.",
+      "Participated in educational and training for youth in suburban and rural areas. Conducted self-awareness sessions.",
   },
   {
     title: "Event Co-ordinator",
-    cardImage: "assets/images/experience-page/psg.png",
+    cardImage: "assets/images/experience-page/enactus.png",
     description:
-      "Co-ordinated and volunteered in multiple technical events at 'Yukutaha' - national level symposium at PSG iTech.",
+      "Co-ordinated and volunteered in multiple technical and social events under Gram Yojana",
   },
   {
     title: "Volunteer",
-    cardImage: "assets/images/experience-page/kalam.png",
+    cardImage: "assets/images/experience-page/techvit.png",
     description:
-      "Volunteered in a tree plantation in the Anna University Regional Campus, Coimbatore in the remembrance of Late Dr. A.P.J Abdul Kalam, Former President of India.",
+      "Volunteered in a organising sports events and tree plantation in the Vellore Institute of Technology.",
   },
 ];
 
@@ -137,40 +151,16 @@ const mentor = [
     desp: "Developed a website called BreatheEZ which aids covid-19 affected patients with breathing exercises.",
   },
   {
-    title: "India Innovation Challenge Design Contest",
+    title: "IMI Big Data and Artificial Intelligence Case Competition",
     subtitle: "Partcipant",
-    image: "assets/images/experience-page/iicdc.png",
-    desp: "Proposed a project called 'Krishi Udaan' which aims to provide better access to the farmers in detecting diseases in tall crops.",
+    image: "assets/images/experience-page/imi.png",
+    desp: "Conducted data preprocessing and designed a model for predicting credit risk.",
   },
   {
-    title: "Accenture Innovation Challenge",
+    title: "I3ndiya IoT Challenge",
     subtitle: "Participant",
-    image: "assets/images/experience-page/accenture.png",
-    desp: "Proposed an idea of developing a mobile application to help entrepreneurs to find funding for their companies.",
-  },
-  {
-    title: "TECHgium",
-    subtitle: "Participant",
-    image: "assets/images/experience-page/techgium.png",
-    desp: "Proposed a solution for automonous driving using SLAM and Kalman filters.",
-  },
-  {
-    title: "e-yantra",
-    subtitle: "Participant",
-    image: "assets/images/experience-page/eyantra.png",
-    desp: "e-yantra is a robotics competition and I passed the first level of test involving mathematics and basic engineering questions.",
-  },
-  {
-    title: "Anokha",
-    subtitle: "Participant",
-    image: "assets/images/experience-page/anokha.png",
-    desp: "Participated in various technical competitions at the national level symposium by Amrita University.",
-  },
-  {
-    title: "Kriya",
-    subtitle: "Participant",
-    image: "assets/images/experience-page/tech.png",
-    desp: "Participated in various technical competitions at the national level symposium by PSG College of Technology.",
+    image: "assets/images/experience-page/i3indya.png",
+    desp: "Proposed a new fault detection method for detecting underground faults.",
   },
 ];
 
